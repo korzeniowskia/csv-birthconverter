@@ -1,14 +1,35 @@
-.gradle
-/build/
+bin/
+build/
+out/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Local configuration file (sdk path, etc)
+local.properties
+.gradle/
+/jniLibs/
+/resources/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# Intellij project files
+*.ipr
+.idea/
 
-# Cache of project
-.gradletasknamecache
+# Eclipse
+.metadata
+.project
+.classpath
+.settings/
+.loadpath
+.recommenders
+.factorypath
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# SublimeText
+/*.sublime-project
+*.sublime-workspace
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
